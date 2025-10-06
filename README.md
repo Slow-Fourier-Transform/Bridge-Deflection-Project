@@ -1,6 +1,7 @@
 # Bridge-Deflection-Project
 In a class we were to design a bridge for as cheap as possible under a specific max deflection. My task was to find the bridge design we would use, so to do that, I made a python script to find the ideal bridge given the materials one of the partners found. This can be found in the jupiter notebook script with example data already generated. After finding the ideal bridge, our team did the manual bridge analysis in MATLAB and did the FEA analysis in Inventor as well.
-There is more that can be done with multi-material optimization and adding buckling analysis. Below is an excerpt from our report. The Inventor, MATLAB, and Python script can be found in their respective folders
+There is more that can be done with multi-material optimization and adding buckling analysis. 
+Below is an excerpt from our report. The Inventor, MATLAB, and Python script can be found in their respective folders
 The key highlights of the python script is programatic truss generation and the ability to import and export from excel, in addition to the ability to view all the trusses as they are and in a 2D deflection vs cost analysis; and a 3D deflection vs height vs vertical segments overlayed with the cost.
 
 Here are some examples from the program:
