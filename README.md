@@ -5,11 +5,10 @@ Below is an excerpt from our report. The Inventor, MATLAB, and Python script can
 The key highlights of the python script is programatic truss generation and the ability to import and export from excel, in addition to the ability to view all the trusses as they are and in a 2D deflection vs cost analysis; and a 3D deflection vs height vs vertical segments overlayed with the cost.
 
 Here are some examples from the program:
-./media/truss.png
-./media/2D.png
-./media/3D.png
-
-
+![Truss Visualization](./media/truss.png)
+![Options to Edit in Excel](./media/excel.png)
+![Price vs Deflection Graph](./media/2D.png)
+![3D ("4D") Graph](./media/3D.png)
 
 
 # FEM Design Final Project
