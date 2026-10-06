@@ -78,9 +78,9 @@ void softmax(float* values, int count) {
 }
 
 void classify() {
-  dense(input, N_IN, W1, B1, hidden1, N_H1, true);
-  dense(hidden1, N_H1, W2, B2, hidden2, N_H2, true);
-  dense(hidden2, N_H2, W3, B3, scores, N_OUT, false);
+  dense(input, N_IN, layer1_weights, layer1_bias, hidden1, N_H1, true);
+  dense(hidden1, N_H1, layer2_weights, layer2_bias, hidden2, N_H2, true);
+  dense(hidden2, N_H2, layer3_weights, layer3_bias, scores, N_OUT, false);
   softmax(scores, N_OUT);
 }
 
